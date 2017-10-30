@@ -5,10 +5,11 @@
     <title>Music</title>
   </head>
   <body>
+    <h1>Music App</h1>
 
     <script>
     var xhr = new XMLHttpRequest()
-    xhr.open('GET', '/music.json', true)
+    xhr.open('GET', '/musicApp/music.json', true)
     xhr.send()
     xhr.onload = function(data){
       console.log(data)
